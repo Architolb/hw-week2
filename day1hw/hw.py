@@ -3,7 +3,7 @@
 number = 1
 while number**3 <1001:
     print(number)
-    number = number + 1
+    number += 1
 
 
 # Exercise2. Get first prime numbers up to 100
