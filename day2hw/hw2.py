@@ -4,7 +4,7 @@ first_name = ['John', 'Evan', 'Jordan', 'Max']
 last_name = ['Smith', 'Smith', 'Williams', 'Bell']
 
 for i in range(len(first_name)):
-    print(first_name[i], last_name[i])
+    print(first_name[i]," ", last_name[i])
 
 
 
