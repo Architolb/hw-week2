@@ -16,8 +16,10 @@ option = int(input('Enter an option: '))
 while option !=0:
     if option == 1:
         item = input("Pick something!: ")
-        quantity = int(input("How many?!: "))
-        shopping_cart[item] = quantity
+        if item in shopping_cart:
+            print("You already have that!: ")
+            quantity = int(input("How many?!: "))
+            shopping_cart[item] = quantity
     elif option == 2:
         item = input("Make up your mind!!: ")
         del(shopping_cart[item])
