@@ -5,7 +5,7 @@ import random
 
 # need a list of words
 
-words = ['gatorade', 'mother', 'father', 'movies', 'library', 'title','lettuce' , 'dodgeball', 'football']
+words = ['gatorade', 'mother', 'father', 'movies', 'library', 'title','lettuce' , 'dodgeball', 'football', 'soccer']
 word = random.choice(words)
 # need spaces for inputs
 spaces = ['_']* len(word)
