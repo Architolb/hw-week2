@@ -11,7 +11,7 @@ word = random.choice(words)
 spaces = ['_']* len(word)
 # function to find letters in guessing word and return the letters if guessed correctly
 
-def letter_place(guess, word, space):
+def letter_place(guess, word, spaces):
     index = -2
     while index != -1:
         if guess in word:
